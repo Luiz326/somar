@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import './index.css'
 class Soma extends Component {
     constructor(props) {
         super(props);
@@ -24,7 +24,7 @@ class Soma extends Component {
 
     render() {
         return (
-            <div >
+            <div className = "container">
                 <input id="n1" name="numero1" type="number" value={this.state.soma.numero1} onChange={this.somar} />
                 <span>+</span>
                 <input id="n2" name="numero2" type="number" value={this.state.soma.numero2} onChange={this.somar} />

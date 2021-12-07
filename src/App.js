@@ -1,6 +1,7 @@
 import { Component } from "react";
 import Soma from "./components/Somar";
 import env from "react-dotenv";
+import './index.css';
 
 
 export function MyComponent() {

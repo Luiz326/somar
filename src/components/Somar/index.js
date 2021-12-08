@@ -29,7 +29,7 @@ class Soma extends Component {
                 <span>+</span>
                 <input id="n2" name="numero2" type="number" value={this.state.soma.numero2} onChange={this.somar} />
                 <span> = </span>
-                <input id="total" name="total" type="number" value={parseInt(this.state.soma.numero1)  + parseInt(this.state.soma.numero2) } />
+                <input id="total" name="total" type="text" value={parseInt(this.state.soma.numero1)  + parseInt(this.state.soma.numero2) } />
             </div>
 
         )
